@@ -1,18 +1,40 @@
 <!-- <app-books></app-books>
 <app-cart></app-cart> -->
-<nav class="flex items-center mb-5  justify-between max-w-5xl mx-auto py-5">
-    <div>
-        <a class="text-2xl font-bold text-purple-700" routerLink=""> Bank<span class="text-orange-400">Connect</span> </a>
-    </div>
-    <div class="flex items-center gap-5 ">
-        <a class="hover:bg-purple-900 hover:scale-125 ease-in duration-200 mx-1 px-3 py-1 rounded-xl hover:text-white " routerLink="/admin">Admin Dashboard</a>
-        <a class="hover:bg-purple-900 hover:scale-125 ease-in duration-200 mx-1 px-3 py-1 rounded-xl hover:text-white " routerLink="/cart">Clien Dashboard</a>
-        
-        <a class="hover:bg-purple-900 hover:scale-125 ease-in duration-200 mx-1 px-3 py-1 rounded-xl hover:text-white " routerLink="/login">LogOut</a>
-        <a class="hover:bg-purple-900 hover:scale-125 ease-in duration-200 mx-1 px-3 py-1 rounded-xl hover:text-white " routerLink="/login">Login</a>
-        <a class="bg-purple-700 hover:bg-purple-900 hover:scale-125 ease-in duration-200 mx-1 tex3-lg cursor-pointer font-semibold inline-block px-5 py-1 rounded-full text-white" routerLink="/register">Register</a>
-    </div>
+<nav class="flex items-center border-b-2 mb-10 justify-between max-w-5xl mx-auto py-5">
+  <div>
+    <a class="text-2xl font-bold text-purple-700" routerLink="">
+      Bank<span class="text-orange-400">Connect</span>
+    </a>
+  </div>
+  <div class="flex items-center gap-5">
+    <a
+      class="hover:bg-purple-900 ease-in duration-200 mx-1 px-3 py-1 rounded-xl hover:text-white"
+      routerLink="/admin"
+      >Admin Dashboard</a
+    >
+    <a
+      class="hover:bg-purple-900 ease-in duration-200 mx-1 px-3 py-1 rounded-xl hover:text-white"
+      routerLink="/cart"
+      >Clien Dashboard</a
+    >
+
+    <a
+      class="hover:bg-purple-900 ease-in duration-200 mx-1 px-3 py-1 rounded-xl hover:text-white"
+      routerLink="/login"
+      >LogOut</a
+    >
+    <a
+      class="hover:bg-purple-900 ease-in duration-200 mx-1 px-3 py-1 rounded-xl hover:text-white"
+      routerLink="/login"
+      >Login</a
+    >
+    <a
+      class="bg-purple-700 hover:bg-purple-900 hover:scale-125 ease-in duration-200 mx-1 tex3-lg cursor-pointer font-semibold inline-block px-5 py-1 rounded-full text-white"
+      routerLink="/register"
+      >Register</a
+    >
+  </div>
 </nav>
 <div class="">
-    <router-outlet></router-outlet>
+  <router-outlet></router-outlet>
 </div>
